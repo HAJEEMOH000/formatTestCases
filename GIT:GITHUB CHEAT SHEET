@@ -1,0 +1,21 @@
+GIT/GITHUB
+
+git status       	 						= checks status
+git checkout      	 						= changing branches
+git checkout -b <name>	 					= create a branch and move into it
+git branch -m <new name>    				= changes branch name (must be inside branch)
+git branch -m <oldname> <newname>  			= can change branch name w/o being inside
+git commit --amend -m "New commit message" 	= Change last commit message 
+git commit --amend							= Changes last commit message 				(VI)
+git merge <branch name> 					= merges <branch name> to current branch
+git log  									= shows all previous merges, commits, etc.. (VI)
+git clone <url> 							= grabs all data from repo
+
+
+
+
+VI (Visual Editor) - might pop up when merging
+press i on keyboard - stands for insert (Add a commit message at top)
+TO EXIT after adding a insert - press esc (Makes insert go away)
+	Put semi colon to enter commands
+	Put wq to save and quit (w means save q means quit) (LOOKS LIKE: :wq)
